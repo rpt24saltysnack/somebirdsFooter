@@ -24,10 +24,8 @@ function App() {
         <div className={styles.columnContainer50}>
           {signUpMessage}
           {signUpMessage === 'Enter your email to stay in touch!' && <div className={styles.emailForm}>
-            <form>
-              <input className={styles.emailField} type="email" onChange={handleEmailChange} value={email} />
-            </form>
-            <div className={styles.signUpButton} onClick={handleSignUp}>SIGN<br/>UP</div>
+            <input className={styles.emailField} type="email" onChange={handleEmailChange} value={email} />
+            <div className={styles.signUpButton} onClick={handleSignUp}>SIGN UP</div>
           </div>}
         </div>
       </div>
