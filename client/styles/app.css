@@ -1,0 +1,160 @@
+.container {
+  background-color: #212a2f;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #fff;
+  font-family: helvetica;
+}
+
+.rowContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 40px;
+}
+
+.subRowContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.columnContainer20 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.columnContainer25 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.columnContainer30 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.columnContainer50 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.colHeader {
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.emailForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 8px;
+  font-weight: 400;
+}
+
+.emailField {
+  background-color: #4d5559;
+  border: 2px solid #4d5559;
+  border-bottom: 2px solid #fff;
+  height: 50px;
+  width: 230px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 650;
+  letter-spacing: .6px;
+  color: #fff;
+}
+
+.emailField:focus {
+  border: 2px solid #fff;
+  transition: .3s;
+}
+
+.signUpButton {
+  background-color: #4d5559;
+  color: #fff;
+  text-align: center;
+  padding: 16px 30px 0px 30px;
+  margin-left: 14px;
+  border-radius: 2px;
+  text-justify: distribute;
+  font-weight: 550;
+  letter-spacing: 1.1px;
+  user-select: none;
+}
+
+.signUpButton:hover {
+  background-color: #fff;
+  color: #212a2f;
+  cursor: pointer;
+}
+
+.item {
+  padding: 5px 0px 7px 0px;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: .6px;
+  line-height: 19px;
+}
+
+.socialMediaIcon {
+  width: 18px;
+  height: auto;
+  margin-top: 16px;
+  margin-right: 17px;
+}
+
+.socialMediaIcon:hover {
+  cursor: pointer;
+}
+
+.horizontalCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.certBLogo {
+  width: 78px;
+  height: auto;
+}
+
+.flagIcon {
+  width: 37px;
+  height: 22px;
+  margin-right: 24px;
+}
+
+.flagIcon:hover {
+  cursor: pointer;
+}
+
+.footerText {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
