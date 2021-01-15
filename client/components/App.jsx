@@ -53,7 +53,7 @@ function App() {
       </div>
       <div className={styles.rowContainer}>
         <div className={styles.columnContainer25}>
-          <div className={styles.colHeader}>
+          <div className={styles.colHeader2}>
             FOLLOW THE FLOCK
           </div>
           <div className={styles.item}>
